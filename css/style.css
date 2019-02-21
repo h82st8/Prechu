@@ -1,0 +1,569 @@
+@font-face { 
+  font-family: "Segoe WP Light";
+  src: url("../fonts/Segoe WP Light.ttf");
+}
+@font-face { 
+  font-family: "SegoeWPN-Light";
+  src: url("../fonts/SegoeWPN-Light.ttf");
+}
+@font-face { 
+  font-family: "SegoeWPN";
+  src: url("../fonts/SegoeWPN.ttf");
+}
+@font-face { 
+  font-family: "SourceSansPro-Regular";
+  src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+/*.wrap {
+  width: 100%;
+  min-width: 320px;
+  max-width: 639px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+*/
+.navbar {
+  padding: 0 30px;
+  margin-bottom: 0;
+  height: 90px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+
+.navbar-header a.navbar-brand {
+  padding-left: 0;
+  padding-right: 0;
+  color: black;
+  font-family: "Segoe WP Light";
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+div.navbar-header a:before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: -8px;
+  background-image: url(../img/quotes.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-color: #5094f2;
+  border-radius: 50%;
+}
+
+.navbar-toggle {
+  margin-top: 24px;
+  margin-right: 0px;
+  margin-left: -1px;
+  background-color: #5094f2;
+  padding: 9px 7px;
+}
+
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:focus {
+  background-color: #5094f2;
+}
+
+.navbar-default .navbar-toggle:focus:hover,
+.navbar-default .navbar-toggle:hover {
+  background-color: #5d76cb;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+}
+
+.navbar-nav li a {
+  padding-left: 35px;
+}
+
+div.container-fluid div.navbar-collapse {
+  position: relative;
+  margin-right: -45px;
+  margin-left: -45px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.navbar-default .navbar-nav>li>a {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: rgba(38,143,255,.2);
+}
+
+.carousel {
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/promo_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-prev,
+.slick-next {
+  display: none!important;
+}
+
+.promo__block_1 {
+  /*width: 177px;*/
+  height: 223px;
+  background-image: url(../img/iphone_big.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.promo__block_2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.promo__block_3 {
+  background-image: url(../img/iPhone-X.png);
+  background-size: contain;
+}
+
+.promo__btn_txt {
+  display: inline-block;
+  font-family: "Segoe WP Light";
+  font-size: 31px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+}
+
+.promo__btn_txt:before {
+  content: '';
+  display: inline-block;
+  width: 48px;
+  height: 33px;
+  background-image: url(../img/bfr_btn.png);
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.title, .promo__txt {
+  font-family: "SegoeWPN-Light";
+  font-size: 31px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.promo__txt {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: 30px;
+  font-size: 23px;
+}
+
+.after_promo__block {
+  position: relative;
+  padding: 40px 40px 60px 220px;
+  border-bottom: 1px solid #ccc;
+}
+
+.after_promo__block:before {
+  position: absolute;
+  left: 40px;
+  content: '';
+  display: inline-block;
+  width: 147px;
+  height: 147px;
+  border-radius: 50%;
+  background-color: #d94748;
+  background-image: url(../img/comp.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.after_promo__block:first-child:before {
+  background-color: #5094f2;
+  background-image: url(../img/pencil.png);
+}
+
+.after_promo__block:last-child:before {
+  background-color: #ebbb11;
+  background-image: url(../img/basket.png);
+}
+
+.sub_subtitle,
+.after_promo__txt {
+  font-family: "SegoeWPN";
+  font-size: 34px;
+  line-height: 52px;
+  color: #5094f2;
+}
+
+.after_promo__txt {
+  font-size: 19px;
+  line-height: 19px;
+  color: #909090;
+}
+
+.shopping_cart__block_1 {
+  height: 162px;
+  background-image: url(../img/cart.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.shopping_cart {
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  padding-bottom: 45px;
+  font-family: "SegoeWPN";
+  font-size: 42px;
+  line-height: 44px;
+  color: #6f7173;
+  text-align: center;
+}
+
+.shopping_cart__block_2 {
+  padding-left: 75px;
+}
+
+.sub_sub_subtitle {
+  font-family: "SegoeWPN";
+  font-size: 34px;
+  line-height: 44px;
+  color: #6f7173;
+}
+
+.shopping_cart__txt {
+  font-family: "SegoeWPN-Light";
+  font-size: 17px;
+  line-height: 36px;
+  color: #6f7173;
+}
+
+.footer {
+  padding: 35px 0 35px 0;
+  text-align: center;
+  border-top: 1px solid #6f7173;
+}
+
+.footer__txt, .footer__link {
+  font-family: "SegoeWPN-Light";
+  font-size: 15px;
+  line-height: 36px;
+  color: #6f7173;
+  text-decoration: none;
+}
+
+@media (min-width: 768px){
+/*.wrap {
+  min-width: 640px;
+  max-width: 1250px;
+}*/
+.container-fluid {
+  padding-top: 30px;
+}
+.navbar-header a.navbar-brand {
+  margin-top: -25px;
+  font-size: 42px;
+}
+div.container-fluid div.navbar-collapse {
+  float:right;
+  padding-left: 0;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #fff;
+  border-bottom: 5px solid rgba(38,143,255,.5);
+}
+.navbar-nav li a {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.navbar {
+  padding: 0 140px;
+}
+.navbar-nav li a {
+  padding: 15px 15px 20px 15px;
+}
+
+.carousel {
+  position: relative;
+  margin-top: 20px;
+  background-image: url(../img/promo_background_big.png);
+  background-repeat: no-repeat;
+  /*background-color: lightgrey;*/
+}
+
+.promo__block_1 {
+  /*width: 345px;*/
+  height: 436px;
+}
+
+.promo__block_2 {
+  margin-top: 100px;
+}
+
+.promo__container_2 {
+  display: block;
+}
+
+.title, .promo__txt {
+  font-family: "SegoeWPN-Light";
+  font-size: 42px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.promo__txt {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.btn {
+  display: block;
+}
+
+.slick-prev {
+  display: inline-block!important;
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 5%;
+  width: 25px;
+  height: 63px;
+  background-image: url(../img/back.png);
+  background-repeat: no-repeat;
+  background-color: rgba(100,100,100,0);
+  border: none;
+  font-size: 0;
+}
+
+.slick-next {
+  display: inline-block!important;
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  width: 25px;
+  height: 63px;
+  background-image: url(../img/forward.png);
+  background-repeat: no-repeat;
+  background-color: rgba(100,100,100,0);
+  border: none;
+  font-size: 0;
+}
+
+.after_promo__container {
+  padding-top: 60px;
+  background-image: url(../img/bcg__block_2.png);
+  background-repeat: no-repeat;
+}
+
+.after_promo__container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.after_promo__block {
+  padding: 0;
+  border-bottom: none;
+  text-align: center;
+}
+
+.after_promo__block:before {
+  position: relative;
+  left: 0;
+  content: '';
+  display: inline-block;
+  width: 186px;
+  height: 186px;
+  border-radius: 50%;
+  background-color: #d94748;
+  background-image: url(../img/comp_big.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+}
+
+.after_promo__block:first-child:before {
+  background-color: #5094f2;
+  background-image: url(../img/pencil_big.png);
+}
+
+.after_promo__block:last-child:before {
+  background-color: #ebbb11;
+  background-image: url(../img/basket_big.png);
+}
+
+.sub_subtitle,
+.after_promo__txt {
+  font-family: "SegoeWPN";
+  font-size: 20px;
+  line-height: 44px;
+  color: #5094f2;
+}
+
+.after_promo__txt {
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #909090;
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.sub_sub_subtitle {
+  font-size: 26px;
+}
+
+.shopping_cart__block_1 {
+  height: 279px;
+}
+
+.shopping_cart__txt {
+  font-size: 15px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.navbar {
+  padding: 0 60px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 520px){
+
+.promo__block_1 {
+  margin-left: 40px;
+  width: 40%;
+}
+
+.promo__block_2 {
+  margin-left: 10px;
+  width: 40%;
+}
+
+
+.after_promo__block {
+  padding: 180px 20px 20px 30px;
+  text-align: center;
+}
+
+.after_promo__block:before {
+  left: 35%;
+  top: 20px;
+}
+
+.subtitle {
+  padding-bottom: 10px;
+}
+
+.shopping_cart__block_1 {
+  height: 110px;
+}
+
+.promo__btn_txt {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 430px){
+
+.promo__btn_txt {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.promo__txt {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 390px){
+
+.navbar {
+  padding: 0 10px;
+}
+
+.after_promo__block:before {
+  left: 30%;
+  top: 20px;
+}
+
+.sub_subtitle {
+  line-height: 34px;
+}
+
+.subtitle {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.sub_sub_subtitle {
+  font-size: 27px;
+  line-height: 27px;
+}
+
+.shopping_cart__block_2 {
+  padding-left: 30px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+.promo__block_2 {
+  margin-top: 20px;
+}
+
+.promo__txt {
+  width: 80%;
+}
+
+.promo__container {
+  padding-top: 80px;
+}
+}
+
+@media (min-width: 520px) and (max-width: 610px){
+
+.promo__block_2 {
+  margin-left: 10px;
+}
+
+.promo__block_1 {
+  width: 40%;
+}
+}

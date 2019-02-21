@@ -457,7 +457,7 @@ div.container-fluid div.navbar-collapse {
 @media (min-width: 320px) and (max-width: 520px){
 
 .promo__block_1 {
-  margin-left: 40px;
+  margin-left: 30px;
   width: 40%;
 }
 
@@ -509,6 +509,10 @@ div.container-fluid div.navbar-collapse {
   line-height: 20px;
 }
 
+.carousel {
+  padding-top: 50px;
+}
+
 }
 
 @media (min-width: 320px) and (max-width: 390px){
@@ -538,6 +542,16 @@ div.container-fluid div.navbar-collapse {
 
 .shopping_cart__block_2 {
   padding-left: 30px;
+}
+
+.promo__btn_txt {
+  letter-spacing: 0;
+}
+
+.promo__btn_txt:before {
+  width: 23px;
+  background-size: 80%;
+  background-position-y: 7px;
 }
 
 }
